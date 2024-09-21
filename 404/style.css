@@ -184,3 +184,36 @@ body {
 
 
 }
+
+@media (max-width: 600px){
+    .esquerda{
+        display: none;
+    }
+
+    .direita{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .menu{
+        width: 100%;
+        display: flex;
+    }
+
+    .icone{
+        display: none;
+    }
+
+    .t-esquerda{
+        display: none;
+    }
+
+    .footer{
+        width: 100%;
+        padding: 10px;
+    }
+}

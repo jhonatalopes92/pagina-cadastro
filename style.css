@@ -98,3 +98,22 @@ body {
     border: none;
     margin-top: 25px;
 }
+
+/*media querie*/
+
+@media (max-width: 600px){
+    .esquerdo{
+        display: none;
+    }
+
+
+    .direito{
+        width: 100%;
+        
+    }
+
+    .imputs input {
+        width: 100%;
+    }
+    
+}
