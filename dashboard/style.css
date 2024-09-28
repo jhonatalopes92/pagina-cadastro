@@ -239,3 +239,84 @@ body {
     background-color: #47c7b440;
     color: #2c98a9;
 }
+
+.container .main .conteudo .tabela table {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+.container .main .conteudo .tabela table th {
+    text-align: left;
+    padding: 10px;
+    color: #6d6a6a;
+    border-bottom: 1px solid #ccc;
+}
+
+.container .main .conteudo .tabela table td {
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#cargo {
+    color: gray;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#nome {
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+.container .main .conteudo .tabela table tbody tr td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.container .main .tabela table tbody tr td .information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container .main .conteudo .tabela table tbody tr .nun {
+    font-weight: bold;
+    color:  rgb(80, 80, 80);
+}
+
+.container .main .conteudo .tabela table tbody .client-data {
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.container .main .conteudo .tabela table tbody .status {
+    padding: 1px 10px;
+    width: fit-content;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.container .main .conteudo .tabela table tbody .pago {
+    background-color: #def8ed;
+    color: #469e7e;
+}
+
+.container .main .conteudo .tabela table tbody .cancelado {
+    background-color: rgb(243, 208, 208);
+    color: red
+}
+
+.container .main .conteudo .tabela table tbody .pedente {
+    background-color: rgb(241, 241, 176);
+    color: orangered;
+}
